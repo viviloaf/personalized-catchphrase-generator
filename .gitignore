@@ -1,3 +1,4 @@
 dask*
 *.csv
 .ipynb_*
+*.pkl
