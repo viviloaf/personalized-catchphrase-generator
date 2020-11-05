@@ -2,8 +2,9 @@ dask*
 *.csv
 .ipynb_*
 *.pkl
-./gpt-2-plaground/aitextgen/*
-./gpt-2-plaground/aitransfer/*
-./gpt-2-plaground/my_fb_trained_model/*
-./gpt-2-plaground/my_fb_text.txt
-./gpt-2-plaground/shakespeare_trained_model/*
+aitextge*
+aitransfe*
+my_fb_trained_mode*
+my_fb_text.txt
+shakespeare_trained_mode*
+research*
