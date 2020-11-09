@@ -12,3 +12,10 @@ data*
 **/mnist_gnn_example/*.png
 *.h5
 gnn-examples/mnist_gnn_example/training_checkpoints*
+.l*
+experiment*
+image*
+log*
+saved_mo*
+training_*
+
