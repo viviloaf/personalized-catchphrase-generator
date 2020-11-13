@@ -18,4 +18,9 @@ image*
 log*
 saved_mo*
 training_*
-
+asset*
+training_checkpoint*
+gru-generator*
+word2vec*
+my_fb_*
+test*
