@@ -24,3 +24,5 @@ gru-generator*
 word2vec*
 my_fb_*
 test*
+__pycache__
+credentials*
