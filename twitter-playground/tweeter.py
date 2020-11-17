@@ -1,3 +1,7 @@
+'''
+READ THE DOCS
+https://python-twitter.readthedocs.io/en/latest/index.html
+'''
 import twitter
 from credentials import API_KEY, API_SECRET, ACCESS_KEY, ACCESS_SECRET
 
@@ -21,5 +25,15 @@ def send_mock_tweet(tweet):
     print(status)
 
 def get_mentions_tweet():
+    '''
+    Get the most recent menton and store it into an object
+    
+    This doesn't seem to be working yet, do not use in production
+    '''
     mention = api.GetMentions(count=1)
     return mention
+
+def get_latest_tweet():
+    '''Returns the most recent tweet created by the bot'''
+    tweeter.api.GetHomeTimeline()
+    return 
