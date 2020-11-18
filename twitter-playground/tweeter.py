@@ -22,7 +22,7 @@ def send_mock_tweet(tweet):
     Use for testing, does not send to Twitter Endpoint
     Only sends to console as a print
     '''
-    print(status)
+    print(tweet)
 
 def get_mentions_tweet():
     '''
@@ -33,7 +33,7 @@ def get_mentions_tweet():
     mention = api.GetMentions(count=1)
     return mention
 
-def get_latest_tweet():
-    '''Returns the most recent tweet created by the bot'''
-    tweeter.api.GetHomeTimeline()
-    return 
+def get_latest_tweets():
+    '''Returns the most recent tweets created by the bot'''
+    home_timeline = tweeter.api.GetHomeTimeline()
+    return [i for i in home_timeline if i.user.screen_name == 'vivianbot1']
